@@ -1,0 +1,19 @@
+# Java build output
+*.class
+out/
+bin/
+project_work/bin/
+
+# Runtime serialization data may contain sample customer/booking records
+*.dat
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+Thumbs.db
