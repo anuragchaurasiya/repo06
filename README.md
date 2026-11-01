@@ -4,6 +4,8 @@
 
 <p align="center"><strong>A Java console project demonstrating object-oriented design, seat booking, billing and file persistence.</strong></p>
 
+<p align="center"><img src="assets/booking-process.svg" alt="Movie theater booking process from movie selection to receipt" width="100%" /></p>
+
 ## Features
 
 - Movie and show selection
