@@ -1,3 +1,4 @@
+// Concepts: OOP classes, encapsulation, ArrayList, 3D arrays, billing, file I/O, and Java serialization.
 package project_work;
 
 import java.io.*;
