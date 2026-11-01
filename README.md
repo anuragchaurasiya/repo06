@@ -1,37 +1,60 @@
-# ☕ Java Projects & OOP Practice
+# Movie Theater Seat Booking System
 
-A Java learning repository containing object-oriented programming exercises and application-development practice.
+<p align="center"><img src="assets/movie-booking-banner.svg" alt="Movie Theater Seat Booking System banner" width="100%" /></p>
 
-## 📌 Focus
+<p align="center"><strong>A Java console project demonstrating object-oriented design, seat booking, billing and file persistence.</strong></p>
 
-- Object-oriented programming
-- Classes and objects
-- Encapsulation
-- Inheritance
-- Abstraction
-- Interfaces
-- Polymorphism
-- Collections and application logic
-- File/data handling practice
+## Features
 
-## 🛠️ Tech Stack
+- Movie and show selection
+- Multi-screen seat layout
+- Customer details and booking receipts
+- Seat availability and booking cancellation
+- Fare calculation, discount and GST demonstration
+- Save and load booking data using Java serialization
+- Admin menu for managing sample movie/show data
 
-- Java
-- Java OOP
-- Java Standard Library
-- Eclipse IDE
-- Git & GitHub
+## Technology
 
-## 📂 Project Work
+- Java 11+
+- OOP: classes, encapsulation and object relationships
+- Collections: `ArrayList`
+- File I/O and serialization
 
-The `project_work` directory is reserved for larger Java application work and project-oriented exercises.
+## Run locally
 
-## 🎯 Goal
+From the repository root:
 
-Build a strong foundation for backend development with Java and progress toward JDBC, MySQL, Spring Boot and REST APIs.
+```bash
+mkdir -p out
+javac -d out project_work/src/project_work/Movie_Theater_SheetBooking.java
+java -cp out project_work.Movie_Theater_SheetBooking
+```
 
-## 👨‍💻 Developer
+The program writes its serialized booking data to `movie_booking.dat` in the current working directory. Keep generated data and compiled `.class` files out of Git.
 
-**Anurag Chaurasiya**
+## Project structure
 
-GitHub: https://github.com/anuragchaurasiya
+```text
+repo06/
+├── assets/
+│   └── movie-booking-banner.svg
+├── project_work/
+│   └── src/
+│       └── project_work/
+│           └── Movie_Theater_SheetBooking.java
+├── .gitignore
+└── README.md
+```
+
+## Important limitations
+
+This is an educational console application, not a production ticketing service. It does not provide real payment processing, secure server-side authentication, concurrent seat locking or a production database. Do not use real customer information in sample runs. The sample admin check in the source is not secure authentication.
+
+## Learning outcomes
+
+Encapsulation, object relationships, collections, menu-driven applications, serialization, file handling and basic billing calculations.
+
+## Maintainer
+
+[Anurag Chaurasiya](https://github.com/anuragchaurasiya)
