@@ -16,6 +16,22 @@
 - Save and load booking data using Java serialization
 - Admin menu for managing sample movie/show data
 
+## Concepts Used
+
+| Concept | Where it appears | What it demonstrates |
+|---|---|---|
+| Classes and objects | `Movie`, `Customer`, `Seat`, `Booking`, `Show` | Modelling the booking domain with Java classes |
+| Encapsulation | Private fields and getter methods | Protecting object data and exposing selected values through methods |
+| Constructors | Domain classes | Initialising movie, customer, seat and booking objects |
+| Object relationships | `Booking` | A booking refers to a customer and movie and contains a collection of seats |
+| Collections | `ArrayList<Seat>` and booking/movie/show lists | Managing variable-size groups of objects |
+| Iteration and conditions | Booking and menu operations | Traversing collections and checking booking/seat states |
+| State changes | `Seat.book()`, `Seat.cancel()`, `Booking.cancelBooking()` | Updating seat and booking status |
+| Billing calculations | `getTotalAmount()`, `getDiscount()`, `getGST()`, `getFinalAmount()` | Calculating ticket totals, discount and tax |
+| File I/O | Data stream and file stream classes | Reading and writing saved application data |
+| Object serialization | Classes implementing `Serializable` | Persisting booking-related objects to a local data file |
+| Console input | `Scanner` | Menu-driven interaction in the terminal |
+
 ## Technology
 
 - Java 11+
